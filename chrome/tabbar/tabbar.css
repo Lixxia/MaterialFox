@@ -76,6 +76,11 @@
 	}
 }
 
+#TabsToolbar toolbarbutton[class^="scrollbutton"]
+{
+    display: none !important;
+}
+
 #tabbrowser-tabs .arrowscrollbox-scrollbox
 {
 	padding-inline-start: 8px !important;
@@ -88,6 +93,11 @@
 	margin-top: calc((var(--tab-min-height) - var(--button-size)) / 2) !important;
 	margin-bottom: calc((var(--tab-min-height) - var(--button-size)) / 2) !important;
 }
+
+#alltabs-button {
+    display: none !important;
+}
+
 
 .tabbrowser-tab
 {
