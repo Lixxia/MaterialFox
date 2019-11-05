@@ -81,7 +81,8 @@
     display: none !important;
 }
 
-#tabbrowser-tabs .arrowscrollbox-scrollbox
+#tabbrowser-tabs .arrowscrollbox-scrollbox, /* <71 */
+#tabbrowser-tabs scrollbox[part=scrollbox] /* 71+ */
 {
 	padding-inline-start: 8px !important;
 	padding-inline-end: 8px !important;
@@ -149,7 +150,7 @@
 .tab-content::after
 {
 	content: "" !important;
-	display: -moz-box !important;
+	display: block !important;
 	position: absolute !important;
 	background-color: currentColor !important;
 	width: 1px !important;
@@ -238,7 +239,7 @@
 .tab-background::after
 {
 	content: "" !important;
-	display: -moz-box !important;
+	display: block !important;
 	position: absolute !important;
 	width: 8px !important;
 	height: 8px !important;
@@ -451,12 +452,13 @@
 	} 
 }
 
-#tabbrowser-tabs .tabs-newtab-button
+#tabbrowser-tabs #tabs-newtab-button
 {
 	margin-inline-start: 6px !important;
 }
 
-#tabbrowser-tabs[overflow] .arrowscrollbox-scrollbox
+#tabbrowser-tabs[overflow] .arrowscrollbox-scrollbox, /* <71 */
+#tabbrowser-tabs[overflow] scrollbox[part=scrollbox] /* 71+ */
 {
 	border-radius: 8px 8px 0 0 !important;
 	background-color: rgba(0, 0, 0, .2) !important;
