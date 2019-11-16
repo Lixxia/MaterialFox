@@ -1,14 +1,23 @@
+#navigator-toolbox::after {
+    border-bottom: 0px !important;
+}
+
 #nav-bar
 {
 	min-height: 36px !important;
 	box-shadow: none !important;
 	padding-left: 6px !important;
 	padding-right: 6px !important;
+    border: none !important;
+    margin-top: -1px !important; border-top-width: -1px !important;
+    margin-bottom: -1px !important; border-bottom-width: -1px !important;
 }
 
 #reload-button[disabled]:not(:-moz-window-inactive) > .toolbarbutton-icon
 {
 	opacity: 1 !important;
+    box-shadow: none !important;
+    border: none !important;
 }
 
 /* Windows */
@@ -54,6 +63,8 @@
 	color: inherit !important;
 	font-size: inherit !important;
 	min-height: auto !important;
+    box-shadow: none !important;
+    border: none !important;
 }
 
 #urlbar,
