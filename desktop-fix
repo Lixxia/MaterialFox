@@ -1,0 +1,1 @@
+sed 's/Exec=firefox/Exec=env GTK_THEME=Arc firefox/' -i /usr/share/applications/firefox.desktop 

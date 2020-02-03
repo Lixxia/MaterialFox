@@ -64,6 +64,7 @@
 
 :-moz-any(.titlebar-placeholder, .titlebar-spacer)[type=post-tabs]
 {
+    display: none !important;
 	width: 48px !important;
 	transition: width .666s cubic-bezier(.4, 0, .2, 1) !important;
 }
@@ -84,6 +85,7 @@
 #tabbrowser-tabs .arrowscrollbox-scrollbox, /* <71 */
 #tabbrowser-tabs scrollbox[part=scrollbox] /* 71+ */
 {
+    display: none !important;
 	padding-inline-start: 8px !important;
 	padding-inline-end: 8px !important;
 }
@@ -97,6 +99,7 @@
 .scrollbutton-up[part="scrollbutton-up"],
 .scrollbutton-down[part="scrollbutton-down"]
 {
+    display: none !important;
 	margin-top: calc((var(--tab-min-height) - var(--button-size)) / 2) !important;
 	margin-bottom: calc((var(--tab-min-height) - var(--button-size)) / 2) !important;
 }
@@ -501,10 +504,11 @@
 	margin-inline-start: 8px !important;
 }
 
-#tabbrowser-tabs[overflow] .tabbrowser-tab[last-visible-tab]:not([pinned])
-{
-	margin-inline-end: 8px !important;
-}
+/* Causes tab flashing */
+/* #tabbrowser-tabs[overflow] .tabbrowser-tab[last-visible-tab]:not([pinned]) */
+/* { */
+/* 	margin-inline-end: 8px !important; */
+/* } */
 
 /* < 72 */
 #tabbrowser-tabs .arrowscrollbox-overflow-start-indicator,

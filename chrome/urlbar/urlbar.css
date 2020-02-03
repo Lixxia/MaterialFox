@@ -50,12 +50,12 @@
 {
 	height: 100% !important;
 	width: 100% !important;
-	grid-template-columns: 32px 1fr 0 0 !important;
-	grid-template-rows: 16px 16px !important;
-	grid-template-areas:
-		"icon title . secondary-icon"
-		"icon secondary . secondary-icon" !important;
-	display: grid !important;
+	/* grid-template-columns: 32px 1fr 0 0 !important; */
+	/* grid-template-rows: 16px 16px !important; */
+	/* grid-template-areas: */
+	/* 	"icon title . secondary-icon" */
+	/* 	"icon secondary . secondary-icon" !important; */
+	/* display: grid !important; */
 	align-items: center !important;
 	align-content: center !important;
 }
