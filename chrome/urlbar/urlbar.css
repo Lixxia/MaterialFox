@@ -172,6 +172,7 @@
 	height: 28px !important;
 	transition: background-color .1s var(--ease-basic) !important;
 	-moz-box-align: center !important;
+    color: inherit !important;
 	
 	display: block !important;
 	margin: 0 !important;

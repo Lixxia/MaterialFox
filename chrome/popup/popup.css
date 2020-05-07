@@ -910,6 +910,8 @@ panelmultiview .toolbaritem-combined-buttons > spacer.after-label
 	flex: 0 0 auto !important;
 	position: relative !important;
 	outline: 0 !important;
+    background-color: var(--lwt-toolbarbutton-icon-fill-attention) !important;
+    color: var(--arrowpanel-color) !important;
 }
 
 .panel-footer button > .button-box
@@ -948,8 +950,8 @@ panelmultiview .toolbaritem-combined-buttons > spacer.after-label
 .panel-footer button:not([default]):hover:active:not([disabled])
 {
 	border-width: 0 !important;
-	background: #002275 !important;
-	color: #FFF !important;
+    background-color: var(--lwt-toolbarbutton-icon-fill-attention) !important;
+    color: var(--arrowpanel-color) !important;
 }
 
 #PopupAutoComplete > richlistbox > richlistitem[originaltype="loginWithOrigin"]
@@ -1010,4 +1012,8 @@ richlistitem:-moz-any(
 	{
 		content: url(menu-right-2x.svg) !important;
 	}
+}
+
+#statuspanel-label {
+	color: var(--arrowpanel-color) !important;
 }
