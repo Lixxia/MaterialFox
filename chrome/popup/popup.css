@@ -1019,4 +1019,6 @@ richlistitem:-moz-any(
 
 #statuspanel-label {
 	color: var(--arrowpanel-color) !important;
+    background-color: var(--toolbar-bgcolor) !important;
+    border: none !important;
 }

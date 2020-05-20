@@ -6,6 +6,7 @@
 {
 	min-height: 36px !important;
 	box-shadow: none !important;
+    margin-left: -5px !important;
 	/* padding-left: 6px !important; */
 	/* padding-right: 6px !important; */
     /* border: none !important; */
