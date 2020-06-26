@@ -22,7 +22,8 @@
 
 /* fix for 1px bottom border */
 #navigator-toolbox {
-    max-height: 33px;
+    max-height: 32px;
+    border: none !important;
 }
 
 /* hide the one pixel top border for tabs */

@@ -1,3 +1,8 @@
 :root { 
     scrollbar-width: none;
 }
+
+/* * { */
+  /* scrollbar-color: rgba(100,100,100,1) rgba(40,40,40,1) !important; */
+  /* scrollbar-width: thin !important; */
+/* } */
